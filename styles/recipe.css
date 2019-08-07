@@ -1,0 +1,28 @@
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-shadow: 1px 1px 1px black;
+  padding: 10px;
+  font-size:30px;
+  background-color: skyblue;
+}
+h1{
+  text-align: center;
+  background-color: blue;
+  font-family: Arial;
+  font-size: 30px;
+  text-shadow: 1px 1px 2px black;
+  color:white;
+  line-height: 60px;
+  height: 60px;
+  width: 100%;
+}
+
+section{
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: 1fr 1fr;
+  border-style: outset;
+}
