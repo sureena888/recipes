@@ -5,16 +5,16 @@
     <title></title>
       <link rel="stylesheet" href="/styles/recipe.css">
   </head>
-  <body>
+  <body class = "recipe">
     <h1>Here are your recipies</h1>
-    <section>
+
 
       {% for result in results.results %}
         <section class="result">
-          <div><img src="{{ result.thumbnail }}"></div>
-          <div>{{ result.title }}</div>
-          <div>{{ result.ingredients }}</div>
-          
+          <div class = "image"><img src="{{ result.thumbnail }}"></div>
+          <div class = "title">{{ result.title }}</div>
+          <div class = "ingredients">{{ result.ingredients }}</div>
+
         </section>
       {% endfor %}
     <p><a href="/">Search Again</a><p>
