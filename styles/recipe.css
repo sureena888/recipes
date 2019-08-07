@@ -7,7 +7,10 @@
   text-shadow: 1px 1px 1px black;
   padding: 10px;
   font-size:30px;
-  background-color: skyblue;
+  background-image: url("https://img.freepik.com/free-photo/italian-pasta-ingredients-white-background-with-space-text_23-2147925938.jpg?size=626&ext=jpg");
+  background-size: cover;
+  background-repeat:no-repeat;
+
 }
 h1{
   text-align: center;
